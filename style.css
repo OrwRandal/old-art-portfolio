@@ -49,7 +49,7 @@ footer {
     transition-duration: .5s;
 }
 
-#nav a:hover {
+#nav a:hover, #foot-nav a:hover {
     color: lightgray;
 }
 
@@ -94,22 +94,6 @@ h1 {
     background-color: white;
 }
 
-/*.card a{*/
-/*    text-decoration: none;*/
-/*    cursor: pointer;*/
-/*    margin: 5% 0;*/
-/*    padding: 2% 5%;*/
-/*    border-style: solid;*/
-/*    border-width: 1px;*/
-/*    border-radius: 5px;*/
-/*    transition-duration: .5s;*/
-/*    color: black;*/
-/*}*/
-
-/*.card a:hover{*/
-/*    border-radius: 0;*/
-/*    box-shadow: 2px 2px*/
-/*}*/
 
 .card h1 {
     font-size: 1.5rem;
@@ -152,6 +136,24 @@ h1 {
     border-radius: 0;
     box-shadow: 2px 2px
 }
+
+#foot-nav{
+    display:flex;
+    justify-content:space-evenly;
+    margin:3% 0;
+    font-family: sans-serif;
+}
+
+#foot-nav a{
+    text-decoration: none;
+    color:black;
+    transition-duration: .5s;
+}
+
+#current{
+    text-decoration: underline;
+}
+
 
 @media (max-width: 1000px) {
     #head {
