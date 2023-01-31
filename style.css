@@ -49,7 +49,8 @@ footer {
     transition-duration: .5s;
 }
 
-#nav a:hover, #foot-nav a:hover {
+#nav a:hover,
+#foot-nav a:hover {
     color: lightgray;
 }
 
@@ -137,20 +138,20 @@ h1 {
     box-shadow: 2px 2px
 }
 
-#foot-nav{
-    display:flex;
-    justify-content:space-evenly;
-    margin:3% 0;
+#foot-nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3% 0;
     font-family: sans-serif;
 }
 
-#foot-nav a{
+#foot-nav a {
     text-decoration: none;
-    color:black;
+    color: black;
     transition-duration: .5s;
 }
 
-#current{
+#current {
     text-decoration: underline;
 }
 
@@ -187,11 +188,11 @@ h1 {
 
     #meText {
         text-align: center;
-                box-shadow:0 0;
+        box-shadow: 0 0;
     }
 
     #aboutMe p {
-        margin:1.5% 0;
+        margin: 1.5% 0;
         font-size: 1rem;
     }
 
@@ -205,5 +206,10 @@ h1 {
     .card {
         width: 60%;
         margin-bottom: 5%;
+    }
+
+    .card img {
+        width: 100%;
+        margin-top: 0;
     }
 }
