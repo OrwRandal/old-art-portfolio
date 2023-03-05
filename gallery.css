@@ -79,8 +79,38 @@ footer {
 
 .column img:hover {
     cursor: pointer;
-    transform: scale(1.3);
+    /* transform: scale(1.3); */
     box-shadow: 8px 8px;
+}
+#openedImage1, #openedImage2, #openedImage3, #openedImage4,#openedImage5,#openedImage6,#openedImage7,#openedImage8,#openedImage9{
+    display:none;
+}
+
+.openImage{
+    display:flex;
+    position:fixed;
+    width:100vw;
+    height:100vh;
+    background-color: rgba(0,0,0,.5);
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.openImage img{
+    height:80vh;
+}
+
+.button{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 3px;
+    padding: 3px 20px;
+}
+
+.button:hover{
+    cursor:pointer;
 }
 
 #foot-nav {
@@ -133,9 +163,5 @@ footer {
 
     .column img {
         box-shadow: 8px 8px;
-    }
-
-    .column img:hover {
-        transform: scale(1.0);
     }
 }
