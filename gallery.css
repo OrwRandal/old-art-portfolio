@@ -84,7 +84,7 @@ footer {
 .column img:hover {
     cursor: pointer;
     border-radius: 0px;
-    box-shadow: 10px 10px;
+    box-shadow: 15px 15px;
     transform: scale(1.03);
 }
 #openedImage1, #openedImage2, #openedImage3, #openedImage4,#openedImage5,#openedImage6,#openedImage7,#openedImage8,#openedImage9{
