@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="style.css" type="text/css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
   </style>
@@ -44,7 +45,7 @@
     </section>
     <h1 class="subtitle">Catagories</h1>
     <div id="cardHolder">
-      <div class="card">
+      <div class="card" data-aos="fade-up">
         <img src="images/jamey.jpg">
         <h1>Original</h1>
         <a class="button" href="originals.html">
@@ -53,7 +54,7 @@
           </div>
         </a>
       </div>
-      <div class="card">
+      <div class="card" data-aos="fade-up">
         <img src="images/amity.jpg">
         <h1>Fan Art</h1>
         <a class="button" href="fan-art.html">
@@ -62,7 +63,7 @@
           </div>
         </a>
       </div>
-      <div class="card">
+      <div class="card" data-aos="fade-up">
         <img src="images/kay.jpg">
         <h1>Portraits</h1>
         <a class="button" href="portraits.html">
@@ -93,6 +94,10 @@
       <p>Copyright© Randy Pichardo</p>
     </div>
   </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
