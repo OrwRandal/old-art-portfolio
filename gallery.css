@@ -78,12 +78,14 @@ footer {
     width: 25vw;
     box-shadow: 8px 8px;
     border-radius: 10px;
+    transition-duration: .3s;
 }
 
 .column img:hover {
     cursor: pointer;
     border-radius: 0px;
-    transform: scale(1.03) !important;
+    box-shadow: 10px 10px;
+    transform: scale(1.03);
 }
 #openedImage1, #openedImage2, #openedImage3, #openedImage4,#openedImage5,#openedImage6,#openedImage7,#openedImage8,#openedImage9{
     display:none;

@@ -8,48 +8,48 @@
     <title>Document</title>
     <link rel="stylesheet" href="gallery.css" type="text/css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script defer src="script.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
     </style>
-    <script defer src="script.js"></script>
 </head>
 
 <body>
     <div class="openImage" id="openedImage1">
         <img src="originals/orig1.jpg">
-        <h4 class = 'button'>Close</h4>
+        <h4 class='button'>Close</h4>
     </div>
     <div class="openImage" id="openedImage2">
         <img src="originals/orig2.jpg">
-        <h4 class = 'button'>Close</h4>
+        <h4 class='button'>Close</h4>
     </div>
     <div class="openImage" id="openedImage3">
         <img src="originals/orig3.jpg">
-        <h4 class = 'button'>Close</h4>
+        <h4 class='button'>Close</h4>
     </div>
     <div class="openImage" id="openedImage4">
         <img src="originals/orig4.jpg">
-        <h4 class = 'button'>Close</h4>
+        <h4 class='button'>Close</h4>
     </div>
     <div class="openImage" id="openedImage5">
         <img src="originals/orig5.jpg">
-        <h4 class = 'button'>Close</h4>
+        <h4 class='button'>Close</h4>
     </div>
     <div class="openImage" id="openedImage6">
         <img src="originals/orig6.jpg">
-        <h4 class = 'button'>Close</h4>
+        <h4 class='button'>Close</h4>
     </div>
     <div class="openImage" id="openedImage7">
         <img src="originals/orig7.jpg">
-        <h4 class = 'button'>Close</h4>
+        <h4 class='button'>Close</h4>
     </div>
     <div class="openImage" id="openedImage8">
         <img src="originals/orig8.jpg">
-        <h4 class = 'button'>Close</h4>
+        <h4 class='button'>Close</h4>
     </div>
     <div class="openImage" id="openedImage9">
         <img src="originals/orig9.jpg">
-        <h4 class = 'button'>Close</h4>
+        <h4 class='button'>Close</h4>
     </div>
     <header id="head">
         <div id="logo">
@@ -69,7 +69,9 @@
     <hr>
     <div id="gallery">
         <div class="column">
-            <img id="img1" src="originals/orig1.jpg" data-aos="fade-right">
+            <div id="img1" data-aos="fade-right">
+                <img src="originals/orig1.jpg">
+            </div>
             <img id="img2" src="originals/orig2.jpg" data-aos="fade-right">
             <img id="img3" src="originals/orig3.jpg" data-aos="fade-right">
         </div>
@@ -105,6 +107,9 @@
         </div>
     </footer>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
