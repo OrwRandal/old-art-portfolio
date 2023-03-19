@@ -26,6 +26,7 @@ body hr {
 #logo {
     margin-left: 10%;
     font-family: 'Pacifico', cursive;
+    width: fit-content
 }
 
 #logo h1 {
@@ -61,26 +62,28 @@ footer {
 #gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
 }
 
 .column {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 300px;
     margin: 0 auto;
 }
 
 .column img {
-    margin: 5% 0;
+    margin: 5% auto;
     border: solid 4px black;
-    transition-duration: .3s;
+    width: 25vw;
+    box-shadow: 8px 8px;
+    border-radius: 10px;
 }
 
 .column img:hover {
     cursor: pointer;
-    box-shadow: 10px 10px;
-    transform: scale(1.05);
+    border-radius: 0px;
+    transform: scale(1.03) !important;
 }
 #openedImage1, #openedImage2, #openedImage3, #openedImage4,#openedImage5,#openedImage6,#openedImage7,#openedImage8,#openedImage9{
     display:none;
@@ -134,7 +137,7 @@ footer {
     text-decoration: underline;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
     #head {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
@@ -142,7 +145,7 @@ footer {
 
     #logo {
         margin-left: 0;
-        text-align: center;
+        margin: 0 auto;
     }
 
     #nav {
@@ -163,10 +166,12 @@ footer {
 
     .column {
         flex-direction: column;
+        align-items: center;
     }
 
     .column img {
         box-shadow: 10px 10px;
+        width: 80vw;
     }
 
     .column img:hover {
