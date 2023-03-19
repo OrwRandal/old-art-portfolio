@@ -172,11 +172,13 @@ footer {
     }
 
     .column img {
-        box-shadow: 10px 10px;
+        box-shadow: 8px 8px;
         width: 80vw;
     }
 
     .column img:hover {
         transform: scale(1);
+        box-shadow: 8px 8px;
+        border-radius: 10px;
     }
 }
